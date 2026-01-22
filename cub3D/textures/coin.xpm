@@ -1,0 +1,28 @@
+/* XPM */
+static char *coin_xpm[] = {
+"16 16 6 1",
+"  c None",
+". c #B8860B",
+"o c #E6B800",
+"O c #FFD700",
+"@ c #FFE28A",
+"* c #FFFFFF",
+"                ",
+"     ......     ",
+"   ...oooooo... ",
+"  ..ooOOOOOOoo..",
+" .oOO@@@@@@@@Ooo",
+" .oO@@@@@@@@@@Oo",
+" .oO@@**@@@@@@Oo",
+" .oO@@@@@@@@@@Oo",
+" .oO@@@@@@@@@@Oo",
+" .oOO@@@@@@@@Ooo",
+"  ..ooOOOOOOoo..",
+"   ...oooooo... ",
+"     ......     ",
+"                ",
+"                ",
+"                ",
+"                ",
+"                "
+};
