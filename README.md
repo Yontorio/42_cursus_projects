@@ -1,5 +1,5 @@
 # 42_cursus_projects
-42 Cursus Projects
+
 📚 About
 
 This repository contains the projects I completed during the 42 School core curriculum (Cursus).
@@ -22,3 +22,5 @@ Unix systems & shell
 Makefiles
 
 Debugging & optimization
+
+[All projects were validated with maximum score according to 42’s evaluation standards]
