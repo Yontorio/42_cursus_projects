@@ -22,7 +22,7 @@ static bool	is_texture_line(char *line)
 
 static bool	is_color_line(char *line)
 {
-	if (line[0] == 'F' || line[0] == 'C')
+	if (!ft_strncmp(line, "F ", 2)  || !ft_strncmp(line, "C ", 2))
 		return (true);
 	return (false);
 }
