@@ -3,8 +3,8 @@
 
 # include<cstddef>
 
-template <typename T>
-void iter(T *array, const size_t length, void (*func)(T &))
+template <typename T, typename F>
+void iter(T *array, const size_t length, F func)
 {
     if (array && func)
     {
