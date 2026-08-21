@@ -53,7 +53,6 @@ static int sendToClient(Server *server, Client *client, const std::string &targe
 	Client *targetClient = server->findClientByNickName(target);
 	if (!targetClient)
 	{
-		std::cout << "hereeeeeeeee" << std::endl;
 		server->sendErrorMsg(client, ERR_NOSUCHNICK, target, "No such nick");
 		return (0);
 	}
